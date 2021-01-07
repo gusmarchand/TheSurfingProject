@@ -15,6 +15,29 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/aab2ed4a7e.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .change {
+        text-align: center;
+      }
+      #bloc {
+        width: 70s%;
+        margin: auto;
+        margin-top: 80px;
+      }
+      p {
+        display: flex;
+        flex-direction: column;
+        text-align: center left;
+      }
+      .nom {
+        font-size: small;
+        color: #6d7174;
+      }
+    </style>
 
     <title>TheSurfingProject</title>
   </head>
@@ -71,15 +94,114 @@
       </div>
     </nav>
     <div
-      class="jumbotron jumbotron-fluid"
-      style="background-image: url(/images/photosurfmain.jpg);background-size: cover; background-position: center; min-height: 400px;
+      class="jumbotron jumbotron-fluid change"
+      style="
+        background-image: url(/images/surfphotomain.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 400px;
+      "
     >
-      <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
-        <p class="lead">
-          This is a modified jumbotron that occupies the entire horizontal space
-          of its parent.
-        </p>
+      <div class="container" style="color: #b6bec2">
+        <h1 class="display-5">Partez à l'aventure</h1>
+        <p class="lead">Découvrez notre école de surf en peer-learning</p>
+        <div class="buttons">
+          <button class="btn btn-primary" type="submit">
+            Je m'inscris à la prochaine session
+          </button>
+          <button type="button" class="btn btn-secondary">
+            Je découvre le programme
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="bloc">
+      <div class="points">
+        <h1
+          class="display-5"
+          style="text-align: center; color: #212429; margin-bottom: 40px"
+          ;
+        >
+          The Surfing Project en 3 points
+        </h1>
+        <div class="3points">
+          <div class="row">
+            <div class="col">
+              <i class="fa-7x fas fa-money-bill-wave-alt"></i>
+              <div class="text">
+                <h2 style="text-align: center">Pas chère</h2>
+                <p class="picon">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  facilis doloremque quo officia perspiciatis dicta mollitia,
+                  beatae nam eveniet provident. Aliquam obcaecati ipsam quisquam
+                  pariatur? Beatae nostrum amet quod similique!
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <i style="" class="fa-7x fas fa-couch"></i>
+              <h2 style="text-align: center">Relax</h2>
+              <p class="picon">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                facilis doloremque quo officia perspiciatis dicta mollitia,
+                beatae nam eveniet provident. Aliquam obcaecati ipsam quisquam
+                pariatur? Beatae nostrum amet quod similique!
+              </p>
+            </div>
+            <div class="col">
+              <i class="fa-7x fas fa-users" style="display: block"></i>
+              <h2 style="text-align: center">La communauté</h2>
+              <p class="picon">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                facilis doloremque quo officia perspiciatis dicta mollitia,
+                beatae nam eveniet provident. Aliquam obcaecati ipsam quisquam
+                pariatur? Beatae nostrum amet quod similique!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="temoins">
+        <h1
+          class="display-5"
+          style="
+            text-align: center;
+            color: #212429;
+            margin-bottom: 40px;
+            margin-top: 60px;
+          "
+          ;
+        >
+          Témoignages
+        </h1>
+        <div class="card-deck" style="display: flex">
+          <div class="card 1">
+            <img
+              class="card-img-top"
+              src="/images/temoin1.jpg"
+              alt="temoin 1"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                J'ai vraiment pris mon pied... dans la gueule.
+              </p>
+              <p class="nom">Bob Dylan</p>
+            </div>
+          </div>
+          <div class="card 2">
+            <img
+              class="card-img-top"
+              src="/images/temoin2.jpg"
+              alt="temoin 1"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Très belle expérience. J'y ai même rencontré ma planche!
+              </p>
+              <p class="nom">Janis Joplin</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -102,3 +224,7 @@
     ></script>
   </body>
 </html>
+
+<!-- <i class="fa-7x fas fa-money-bill-wave-alt"></i>
+<i class="fa-7x fas fa-couch"></i>
+<i class="fa-7x fas fa-users"></i> -->
